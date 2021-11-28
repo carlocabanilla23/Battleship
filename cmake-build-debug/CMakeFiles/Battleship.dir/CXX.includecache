@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/John Carlo Cabanilla/Desktop/Battleship/Board.h
+vector
+-
+iostream
+-
+windows.h
+-
+
+C:/Users/John Carlo Cabanilla/Desktop/Battleship/main.cpp
+iostream
+-
+fstream
+-
+Board.h
+C:/Users/John Carlo Cabanilla/Desktop/Battleship/Board.h
+ctime
+-
+chrono
+-
+thread
+-
+
